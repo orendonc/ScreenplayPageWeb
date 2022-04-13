@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Successfully search",
+        "description": "",
+        "id": "google-search;successfully-search;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User visit the Google platform",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User tries to search the next information",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "word"
+                ]
+              },
+              {
+                "cells": [
+                  "Automation"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "wwwww",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User verifies is success for the search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "erereriou",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "  As a user I want to search the word automation in the platform google",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/trn_googlesearch.feature",
+    "tags": []
+  }
+]
