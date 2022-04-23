@@ -6,11 +6,9 @@ Feature: Google search
     When User tries to search the next information
       | word   |
       | <word> |
-    And wwwww
     Then User verifies is success for the search
-    And erereriou
 
     Examples:
       | word       |
       | Automation |
-   
+
